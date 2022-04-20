@@ -91,7 +91,6 @@ The final DataFrame used to explore the data for this project contains the follo
  
 |  Variables             |    Definition                              |    DataType             |
 | :--------------------:   | :----------------------------------------: | :--------------------: |
-customer_id           |               object                            | | 
 index                 |  Date order was placed                          |  datetime64[ns]    |
 order_id              |  Order identifier assigned to each product name for each order | object |
 ship_date             |  Date order was shipped                         | datetime64[ns]       |
