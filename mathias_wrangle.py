@@ -69,3 +69,29 @@ def prep_superstore(df):
 
     # Return df
     return df
+
+def split_superstore(df):
+    '''
+    This function takes in a df and returns three samples of the data
+    for train, validate and test.
+    '''
+    
+    # The funciton assigns size as a portion of the df
+    
+    # The train set is 50 percent of the data
+    train_size = int(len(df) * 0.5)
+    
+    # The validate set is 30 percent of the data
+    validate_size = int(len(df) * 0.3)
+    
+    # Below the function assigns an end point for the validate data 
+    # and a starting point for the test data
+    validate_end_index = train_size + validate_size
+    
+    # Below the function assigns the data to individual subsets
+    train = df[:train_size]
+    validate = df[train_size:validate_end_index]
+    test = df[validate_end_index:]
+
+    # The function then returns the train, validate and test splits
+    return train, validate, test
