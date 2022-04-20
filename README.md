@@ -1,7 +1,5 @@
-TIME SERIES
-
-Time Series Project - Superstore -
-By: Mathias Boissevain & Rachel Robbins-Mayhill
+TIME SERIES PROJECT - SUPERSTORE -
+By: Mathias Boissevain & Rachel Robbins-Mayhill -
 Codeup - Innis Cohort - April 2022
  
 ===
@@ -33,7 +31,7 @@ Table of Contents
  
  
 #### 1.  GOAL:
-The goal of this project is to identify key drivers of lost revenue for SuperStore, a retail store, and make recommendations to reduce loss in order to increase profit. 
+The goal of this project is to identify which customer segment is the best for SuperStore, a retail store, and make recommendations to grow customer segments. 
  
  
 #### 2. DESCRIPTION:
@@ -91,38 +89,29 @@ If the exploratory process produces one data-backed driver of loss and one recom
 The final DataFrame used to explore the data for this project contains the following variables (columns).  The variables, along with their data types, are defined below:
  
  
-|  Variables             |    Data Type                                |    Definition             |
+|  Variables             |    Definition                              |    DataType             |
 | :--------------------:   | :----------------------------------------: | :--------------------: |
-customer_id           |               object             | unique identifier for each customer | 
-is_senior                |                 integer (whole #)    |  senior citizen (65+), 0= no, 1=yes|
-tenure_months       |                      integer (whole #)    | length of customer service in months|
-monthly_charges     |                    float (decimal)    | current monthly charges in USD |
-total_charges            |               float (decimal)    | sum of all charges for tenure in USD |
-contract_type             |               object    | type of contract customer signed: month-to-month, One year, Two year|
-internet_service_type |               object    | type of internet service customer has or had: Fiber optic, DSL, None|
-payment_type |   object | type of payment method customer uses or used: Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic) |
-is_male_Male         |   boolean int. (0, 1)    | binary gender identity 0= male, 1=female|    
-has_partner_Yes    |                       boolean int. (0, 1)  | has spouse, partner, or significant other, 0= no, 1=yes||
-has_dependents_Yes     |  boolean int. (0, 1)   | has dependent(s), children or otherwise, 0= no, 1=yes|
-has_phone_service_Yes |                    boolean int. (0, 1)  | is or was a phone customer, 0= no, 1=yes|
-has_multiple_lines_No phone service |      boolean int. (0, 1)  | didn’t or doesn’t have phone service, 0= no, 1=yes|
-has_multiple_lines_Yes   |                 boolean int. (0, 1)  | has or had multiple phone lines, 0= no, 1=yes|
-has_online_security_Yes   |  boolean int. (0, 1)| internet option: has or had service add-on, 0= no, 1=yes|
-has_online_backup_Yes  | boolean int. (0, 1) | internet option: has or had service add-on, 0= no, 1=yes|
-has_device_protection_Yes  |  boolean int. (0, 1)|  internet option: has or had service add-on, 0= no, 1=yes|
-has_tech_support_Yes  |               boolean int. (0, 1)   | internet option: has or had service add-on, 0= no, 1=yes|
-has_streaming_tv_Yes   |          boolean int. (0, 1)   | internet option: has or had service add-on, 0= no, 1=yes|
-has_streaming_movies_Yes  |       boolean int. (0, 1)   | internet option: has or had service add-on, 0= no, 1=yes|
-has_paperless_billing_Yes |    boolean int. (0, 1)|  customer bill is or was paperless, 0= no, 1=yes |
-did_churn_Yes (target) |            boolean int. (0, 1) | customer services have been canceled, 0= no, 1=yes|  
-contract_type_One year  |                  integer ( boolean 0,1|  customer has or did have 1 year contract, 0= no, 1=yes|
-contract_type_Two year  |                  boolean int. (0, 1) | customer has or did have 2 year contract, 0= no, 1=yes|   
-internet_service_type_Fiber optic  | boolean int. (0, 1)|  is or was a fiber optic internet customer,  0= no, 1=yes |
-internet_service_type_None     | boolean int. (0, 1)| is or was an internet customer,  0= no, 1=yes |
-payment_type_Credit card (automatic)   |   boolean int. (0, 1)  | payment type is or was credit card, 0= no, 1=yes |   
-payment_type_Electronic check     |        boolean int. (0, 1)  | payment type is or was electronic check, 0= no, 1=yes |  
-payment_type_Mailed check       |          boolean int. (0, 1)  | payment type is or was check via post, 0= no, 1=yes |
- 
+customer_id           |               object                            | | 
+index                 |  Date order was placed                          |  datetime64[ns]    |
+order_id              |  Order identifier assigned to each product name for each order | object |
+ship_date             |  Date order was shipped                         | datetime64[ns]       |
+ship_mode             |  Mode of shipping for delivery:  'Standard Class', 'First Class', 'Second Class', 'Same Day'  | object      |
+segment               |  Customer type: Consumer, Cooperate, Home Office  |  object     |
+country               |  Country to which shipment was delivered: 'United States'  |    object   |
+city                  |  City to which shipment was delivered  |  object    |
+state                 |  State to which shipment was delivered  |  object    |
+postal_code           |  Postal code to which shipment was delivered   |  float64   |
+sales                 |  Sale total for product id * quantity in given order ($USD)  | float64     |
+quantity              |  Total number of specified product ordered  | float64     |
+discount              |  Percentage of discount applied to order in decimal form  | float64     |
+profit                |  Sales - Product Cost  | float64     |
+category              |  Category the product belongs to  | object    |
+sub-category          |  Subcategory the product belongs to  |  object    |
+customer_name         |  Name of customer   | object     |
+product_name          |  Name of product  |  object    |
+region_name           |  General area of US where order was placed: 'Central', 'South', 'East', 'West'  |  object    |
+days_to_ship *        |  Number of days from order_date to ship_date  |  int64    |
+                          * feature engineered
  
 ## III. PROJECT PLAN - USING THE DATA SCIENCE PIPELINE:
 The following outlines the process taken through the Data Science Pipeline to complete this project. 
