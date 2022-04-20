@@ -91,7 +91,7 @@ The final DataFrame used to explore the data for this project contains the follo
  
 |  Variables             |    Definition                              |    DataType             |
 | :--------------------:   | :----------------------------------------: | :--------------------: |
-index                 |  Date order was placed                          |  datetime64[ns]    |
+order_date (index)    |  Date order was placed                          |  datetime64[ns]    |
 order_id              |  Order identifier assigned to each product name for each order | object |
 ship_date             |  Date order was shipped                         | datetime64[ns]       |
 ship_mode             |  Mode of shipping for delivery:  'Standard Class', 'First Class', 'Second Class', 'Same Day'  | object      |
