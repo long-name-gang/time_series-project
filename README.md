@@ -44,7 +44,7 @@ The focus of the project is identifying the best customer segment in regards to 
  
 ##### Data-Focused Questions
 - What customer base contributes the most to profit?
-- What customer base contributes the most to profit?
+- What customer base contributes the most to sales?
 - How does the impact of each customer segment change over time?
 - What is our total revenue?
 - What amount of revenue is impacted by each customer segment?
