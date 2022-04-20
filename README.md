@@ -31,47 +31,46 @@ Table of Contents
  
  
 #### 1.  GOAL:
-The goal of this project is to identify which customer segment is the best for SuperStore, a retail store, and make recommendations to grow customer segments. 
+The goal of this project is to identify which customer segment is the best for SuperStore, a office-supply retail store, and make recommendations on where to shift company focus in regards to customer segment. 
  
  
 #### 2. DESCRIPTION:
-With an ever-competitive retail market, it is vital to understand your market base in order to prevent profit loss and maximize revenue.  Ultimately, knowing what components are contributing to profit loss, is important for maintaining and increasing profit.  This project will identify key drivers of loss for the Superstore dataset and use modeling and statistics to identify ways to prevent loss in the future. Ultimately it will provide a recommendation that could be used by Superstore or other customer-based service companies to maximize profit.
+Superstore's mission is to be the preferred supplier of workspace solutions; from home-office to cooperate office, we aspire to be the leading expert in workplace solutions for everyone! For this reason, it is important to know whether we are reaching everyone with our products and services. 
+This project will use exploration, modeling, and statistics to identify the best customer segment for Superstore in regards to ________ and will provide recommendations on where to shift our company focus in order to maintain happy loyal customers while continuing to grow our customer base.
  
  
 #### 3.INITIAL QUESTIONS:
-The focus of the project is on decreasing profit loss and increasing profit. Below are some of the initial questions this project looks to answer throughout the Data Science Pipeline.
+The focus of the project is identifying the best customer segment in regards to ___________. Below are some of the initial questions this project looks to answer throughout the Data Science Pipeline.
  
 ##### Data-Focused Questions
-- What customer base contributes the most to profit loss?
-- What geographic area experiences the most profit loss?
-- Which product category contributes most to profit loss?
-- Does shipping contribute to profit loss?
+- What customer base contributes the most to profit?
+- What customer base contributes the most to profit?
+- How does the impact of each customer segment change over time?
 - What is our total revenue?
-- What amount of revenue is impacted by the profit loss?
-- What amount of revenue is impacted by the customer base that has the most loss?
-- What amount of revenue is impacted by the product category that has the most loss?
+- What amount of revenue is impacted by each customer segment?
+
  
 ##### Overall Project-Focused Questions
 - What will the end product look like?
-5-minute presentation to key stakeholder.
+   + 5-minute presentation to key stakeholder, with best customer segment identified and recommendation given on where to shift company focus.
 - What format will it be in?
-Slide format, with agenda, executive summary, data overview, and recommendations.
+   + Slide format, with agenda, executive summary, data overview, and recommendations along with Github Repo.
 - Who will it be delivered to?
-Key stakeholder (TBD)
+   + Company CEO
 - How will it be used?
-To recommend steps to take in order to reduce loss.
+   + To recommend steps to take in order to grow customer segment________ .
 - How will I know I'm done?
-When driver and recommendation have been identified, along with deliverables complete.
+   + When customer segment impact and recommendation have been identified, along with deliverables complete.
 - What is my MVP?
-Identify one driver of profit loss. 
+   + Identify best customer segment in regards to ONE of the following areas (sales volume, total profit, % profit, or sales growth). 
 - How will I know it's good enough?
-If the exploratory process produces one data-backed driver of loss and one recommendation for that driver. 
+   + If the exploratory process produces data-backed results outlining the 'best' customer segment along with an avenue for improving company profits. 
  
 
 #### 4. FORMULATING HYPOTHESES
-- Is geographic region related to profit loss?
-   + H0: The profit loss rate of a single geographic region <= the profit loss rate of all geographic regions.
-   + H1: The profit loss rate of a single geographic region > the profit loss rate of all geographic regions.
+- Which customer segment is the best?
+   + H0: The consumer customer segment's profit is <= the profit of all other customer segments.
+   + H1: The consumer customer segment's profit is > the profit of all other customer segments.
  
  
 #### 5. DELIVERABLES:
@@ -110,7 +109,7 @@ customer_name         |  Name of customer   | object     |
 product_name          |  Name of product  |  object    |
 region_name           |  General area of US where order was placed: 'Central', 'South', 'East', 'West'  |  object    |
 days_to_ship *        |  Number of days from order_date to ship_date  |  int64    |
-                          * feature engineered
+* feature engineered
  
 ## III. PROJECT PLAN - USING THE DATA SCIENCE PIPELINE:
 The following outlines the process taken through the Data Science Pipeline to complete this project. 
@@ -159,11 +158,11 @@ Using Python Scripting Program (Jupyter Notebook)
  
 #### 4.EXPLORE
 Using Jupyter Notebook:
-- [x]  Answer key questions about hypotheses and find drivers of profit loss
+- [x]  Answer key questions about hypotheses and find the best customer segment in regards to _______
      - [x]  Run at least two statistical tests
      - [x]  Document findings
 - [x]  Create visualizations with the intent to discover variable relationships
-     - [x]  Identify variables related to loss
+     - [x]  Identify variables related to customer segments and _________
      - [x]  Identify any potential data integrity issues
 - [x]  Summarize conclusions, provide clear answers, and summarize takeaways
      - [x] Explain plan of action as deduced from work to this point
