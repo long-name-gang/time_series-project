@@ -15,17 +15,17 @@ Table of Contents
 [3. Initial Questions](#3initial-questions)<br>
 [4. Formulating Hypotheses](#4-formulating-hypotheses)<br>
 [5. Deliverables](#5-deliverables)<br>
-* II. [Project Data Context](#ii-data-context)<br>
+* II. [Project Data Context](#ii-project-data-context)<br>
 [1. Data Dictionary](#1-data-dictionary)<br>
-* III. [Project Plan - Data Science Pipeline](#iii-data-science-pipeline-process)<br>
+* III. [Project Plan - Data Science Pipeline](#iii-project-plan---using-the-data-science-pipeline)<br>
 [1. Project Planning](#1-plan)<br>
 [2. Data Acquisition](#2-acquire)<br>
 [3. Data Preparation](#3-prepare)<br>
 [4. Data Exploration](#4explore)<br>
 [5. Modeling & Evaluation](#5-model--evaluate)<br>
 [6. Product Delivery](#6-delivery)<br>
-* IV. [Project Modules](#iv-modules)<br>
-* V. [Project Reproduction](#v-reproducibility)<br>
+* IV. [Project Modules](#iv-project-modules)<br>
+* V. [Project Reproduction](#v-project-reproduction)<br>
  
  
  
