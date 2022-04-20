@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 
-# Import to acquire db
+# Import to acquire df
 import env
 import os
 
@@ -62,7 +62,10 @@ def prep_superstore(df):
     df = df.set_index('order_date').sort_index()
 
     # Create column for number of days to ship
-    df['days_to_ship'] = df.ship_date.dt.day - df.index.day
+    df['days_to_ship'] = df['ship_date'] - df.index
     
+    # Set postal code to object type
+    df.postal_code = df.postal_code.astype('object')
+
     # Return df
     return df
