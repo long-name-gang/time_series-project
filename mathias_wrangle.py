@@ -70,7 +70,7 @@ def prep_superstore(df):
     # Return df
     return df
 
-def split_superstore(df):
+def split_percent_superstore(df):
     '''
     This function takes in a df and returns three samples of the data
     for train, validate and test.
@@ -94,4 +94,18 @@ def split_superstore(df):
     test = df[validate_end_index:]
 
     # The function then returns the train, validate and test splits
+    return train, validate, test
+
+def split_year_superstore(df):
+    '''
+    This function takes in a. df and returns three samples of the data
+    for train, validate and test.
+    '''
+    # The df is split by year with train being 2014 and 2015
+    train = df[:'2015']
+    # Validate is 2016
+    validate = df['2016']
+    # Test is 2017
+    test = df['2017']
+    # Return the split datasets
     return train, validate, test
