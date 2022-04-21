@@ -66,7 +66,7 @@ def prep_superstore(df):
     
     # Set postal code to object type
     df.postal_code = df.postal_code.astype('object')
-
+    
     # Return df
     return df
 
