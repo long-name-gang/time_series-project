@@ -73,7 +73,7 @@ def prep_superstore(df):
 def split_percent_superstore(df):
     '''
     This function takes in a df and returns three samples of the data
-    for train, validate and test.
+    for train, validate and test. Used in work flow but not in final report.
     '''
     
     # The funciton assigns size as a portion of the df
@@ -99,7 +99,7 @@ def split_percent_superstore(df):
 def split_year_superstore(df):
     '''
     This function takes in a. df and returns three samples of the data
-    for train, validate and test.
+    for train, validate and test. Used in work flow but not in final report.
     '''
     # The df is split by year with train being 2014 and 2015
     train = df[:'2015']
