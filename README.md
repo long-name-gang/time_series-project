@@ -2,7 +2,7 @@ SuperCONSUMERS: AN EVALUATION OF SUPERSTORE CUSTOMER SEGMENTS
 
 ===
 
-A Time Series Project     |.    
+A Time Series Project        
 By: Mathias Boissevain & Rachel Robbins-Mayhill     |     Codeup     |     Innis Cohort     |     April 2022
  
 ===
