@@ -1,4 +1,6 @@
-TIME SERIES PROJECT - SUPERSTORE -
+SuperCONSUMERS: AN EVALUATION OF SUPERSTORE CONSUMER SEGMENTS
+
+A Time Series Project -
 By: Mathias Boissevain & Rachel Robbins-Mayhill -
 Codeup - Innis Cohort - April 2022
  
