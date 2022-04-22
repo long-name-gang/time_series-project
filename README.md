@@ -1,6 +1,9 @@
-TIME SERIES PROJECT - SUPERSTORE -
-By: Mathias Boissevain & Rachel Robbins-Mayhill -
-Codeup - Innis Cohort - April 2022
+SuperCONSUMERS: AN EVALUATION OF SUPERSTORE CUSTOMER SEGMENTS
+
+===
+
+A Time Series Project        
+By: Mathias Boissevain & Rachel Robbins-Mayhill     |     Codeup     |     Innis Cohort     |     April 2022
  
 ===
  
@@ -31,23 +34,26 @@ Table of Contents
  
  
 #### 1.  GOAL:
-The goal of this project is to identify which customer segment is the best for SuperStore, a office-supply retail store, and make recommendations on where to shift company focus in regards to customer segment. 
+The goal of this project is to identify which of Superstore's customer segments is the best, then make recommendations on where to shift company focus in regards to customer segments. 
  
  
 #### 2. DESCRIPTION:
-Superstore's mission is to be the preferred supplier of workspace solutions; from home-office to cooperate office, we aspire to be the leading expert in workplace solutions for everyone! For this reason, it is important to know whether we are reaching everyone with our products and services. 
-This project will use exploration, modeling, and statistics to identify the best customer segment for Superstore in regards to ________ and will provide recommendations on where to shift our company focus in order to maintain happy loyal customers while continuing to grow our customer base.
+Superstore's mission is to be the preferred supplier of workspace solutions; from home-office to corporate office, we aspire to be the leading expert in workplace solutions for everyone! For this reason, it is important to know whether we are reaching everyone with our products and services. 
+This project will use the Data Sciece Pipeline through exploration to identify the best customer segment for Superstore, an office supply retail store, and will provide recommendations on where to shift the company focus in order to maintain happy loyal customers while continuing to grow the customer base.
  
  
 #### 3.INITIAL QUESTIONS:
-The focus of the project is identifying the best customer segment in regards to ___________. Below are some of the initial questions this project looks to answer throughout the Data Science Pipeline.
+The focus of the project is identifying the best customer segment. Below are some of the initial questions this project looks to answer throughout the Data Science Pipeline.
  
 ##### Data-Focused Questions
-- What customer base contributes the most to profit?
-- What customer base contributes the most to sales?
-- How does the impact of each customer segment change over time?
-- What is our total revenue?
-- What amount of revenue is impacted by each customer segment?
+- Who are our customers?
+- What does profit look like over time?
+- What do sales look like over time?
+- What customer base contributes the most to profit over time?
+- How does profit by customer segment trend over time?
+- What customer base contributes the most to sales over time
+- What is the sales per customer segment over time?
+- How many orders are placed annually per segment?
 
  
 ##### Overall Project-Focused Questions
@@ -58,7 +64,7 @@ The focus of the project is identifying the best customer segment in regards to 
 - Who will it be delivered to?
    + Company CEO
 - How will it be used?
-   + To recommend steps to take in order to grow customer segment________ .
+   + To recommend steps to take in order to grow customer segments.
 - How will I know I'm done?
    + When customer segment impact and recommendation have been identified, along with deliverables complete.
 - What is my MVP?
@@ -151,42 +157,30 @@ Using Python Scripting Program (Jupyter Notebook)
 - [x]  Create prepare function within wrangle.py
 - [x]  Store functions needed to prepare the Superstore data such as:
    - [x]  Cleaning Function: to clean data for exploration
-   - [x]  Encoding Function: to create numeric columns for object column
-   - [x]  Feature Engineering Function: to create new features
-   - [x]  Split Function: to split data into train, validate, and test
 - [x]  Ensure all imports needed to run the functions are inside the wrangle.py document
  
 #### 4.EXPLORE
 Using Jupyter Notebook:
-- [x]  Answer key questions about hypotheses and find the best customer segment in regards to _______
+- [x]  Answer key questions about hypotheses and find the best customer segment
      - [x]  Run at least two statistical tests
      - [x]  Document findings
 - [x]  Create visualizations with the intent to discover variable relationships
-     - [x]  Identify variables related to customer segments and _________
+     - [x]  Identify variables related to best customer segments
      - [x]  Identify any potential data integrity issues
 - [x]  Summarize conclusions, provide clear answers, and summarize takeaways
      - [x] Explain plan of action as deduced from work to this point
  
 #### 5. MODEL & EVALUATE
-Using Jupyter Notebook:
-- [x]  Establish baseline accuracy
-- [x]  Train and fit multiple (3+) models with varying algorithms and/or hyperparameters
-- [x]  Compare evaluation metrics across models
-- [x]  Remove unnecessary features
-- [x]  Evaluate best performing models using validate set
-- [x]  Choose best performing validation model for use on test set
-- [x]  Test final model on out-of-sample testing dataset
-- [x]  Summarize performance
-- [x]  Interpret and document findings
- 
+- [x] No modeling was necessary for this project, however, modeling could be added to next steps if desired.
+
 #### 6. DELIVERY
 - [x]  Prepare a five-minute presentation using Google Sheets
      - [x]  Include an introduction of the project and goals
      - [x]  Provide an executive summary of findings, key takeaways, recommendations, and rationale
      - [x]  Create a walkthrough of the analysis 
      - [x]  Include 2 presentation-worthy visualizations that support the problem and recommendation
-     - [x] Provide final takeaways, recommend a course of action, and next steps
-     - [x] Be prepared to answer questions following the presentation
+     - [x]  Provide final takeaways, recommend a course of action, and next steps
+     - [x]  Be prepared to answer questions following the presentation
 - [x]  Prepare final notebook in Jupyter Notebook
      - [x]  Create clear walk-though of the Data Science Pipeline using headings and dividers
      - [x]  Explicitly define questions asked during the initial analysis
