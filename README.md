@@ -38,9 +38,8 @@ The goal of this project is to identify which of Superstore's customer segments 
  
  
 #### 2. DESCRIPTION:
-Superstore's mission is to be the preferred supplier of workspace solutions; from home-office to corporate office, we aspire to be the leading expert in workplace solutions for everyone! For this reason, it is important to know whether we are reaching everyone with our products and services. 
-This project will use the Data Sciece Pipeline through exploration to identify the best customer segment for Superstore, an office supply retail store, and will provide recommendations on where to shift the company focus in order to maintain happy loyal customers while continuing to grow the customer base.
- 
+Superstore's mission is to be the preferred supplier of workspace solutions; from home-office to the corporate office, we aspire to be the leading expert in workplace solutions for everyone! For this reason, it is important to know whether we are reaching everyone with our products and services. 
+This project will use the Data Science Pipeline through the exploration portion, to identify the best customer segment for Superstore, an office supply retail store, and will provide recommendations on where to shift the company focus in order to maintain happy loyal customers while continuing to grow the customer base.
  
 #### 3.INITIAL QUESTIONS:
 The focus of the project is identifying the best customer segment. Below are some of the initial questions this project looks to answer throughout the Data Science Pipeline.
